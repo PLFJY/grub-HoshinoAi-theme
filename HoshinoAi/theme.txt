@@ -1,0 +1,47 @@
+title-text: ""
+title-color: "#ffffff"
+terminal-font: "DejaVu Sans Mono Bold 8"
+terminal-left: "0"
+terminal-top: "0"
+terminal-width: "100%"
+terminal-height: "100%"
+terminal-border: "0"
+desktop-image: "background.png"
+desktop-color: "#fba8c2"
+message-font: "Terminus Regular Bold 14"
+message-color: "#fd262e"
+
+# Show the boot menu
++ boot_menu {
+  left = 269
+  top = 345
+  width = 638
+  height = 486
+  item_font = "DejaVu Sans Mono Bold 8"
+  item_color = "#ffffff"
+  selected_item_color = "#ffffff"
+  icon_width = 55
+  icon_height = 55
+  item_icon_space = 20
+  item_height = 74
+  item_padding = 20
+  item_spacing = 26
+  selected_item_pixmap_style = "select_*.png"
+}
+
+# Show progress
++ progress_bar {
+  left = 307
+  top = 864
+  height = 35
+  width = 672
+  font = "DejaVu Sans Mono Bold 8"
+  id = "__timeout__"
+  text = "Automatically booting in %d seconds"
+  text_color = "#000000"
+  bar_style = "progress_frame_*.png"
+  highlight_style = "progress_highlight_*.png"
+  show_text = true
+  bar_style = "progress_frame_*.png"
+  highlight_style = "progress_highlight_*.png"
+}
