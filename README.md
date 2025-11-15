@@ -8,4 +8,4 @@ All images are from [fandom](https://oshinoko.fandom.com/wiki/Ai_Hoshino) and of
 git clone https://github.com/PLFJY/grub-HoshinoAi-theme.git
 cd grub-HoshinoAi-theme
 sudo sh ./install.sh
-``
+```
